@@ -1,0 +1,10 @@
+This is the database design to store the user data;
+
+CREATE TABLE Persons (
+    last_name varchar(255) NOT NULL,
+    first_name varchar(255),
+    email   varchar(255) NOT NULL PRIMARY KEY,
+    mobile_number varchar(255)
+);
+
+
